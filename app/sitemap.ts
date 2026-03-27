@@ -4,7 +4,7 @@ const getSiteUrl = () => {
   const rawUrl =
     process.env.NEXT_PUBLIC_SITE_URL ||
     process.env.SITE_URL ||
-    "https://dongtay.vn";
+    "https://dongtayco.com.vn";
 
   return rawUrl.replace(/\/$/, "");
 };
