@@ -1,12 +1,9 @@
 import localFont from "next/font/local";
-import { Cormorant_Garamond } from "next/font/google";
 
-export const cormorantGaramond = Cormorant_Garamond({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-cormorant-garamond",
-  display: "swap",
-  weight: ["600", "700"],
-});
+export const cormorantGaramond = {
+  className: "font-serif",
+  variable: "",
+};
 
 export const sfUIDisplay = localFont({
   src: [

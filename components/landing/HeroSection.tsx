@@ -5,6 +5,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { Button } from "@/components/ui/button";
 import { cormorantGaramond } from "@/app/fonts";
+import { LANDING_TEXT } from "@/lib/constants";
 
 export const HeroSection = () => {
   const sectionRef = useRef<HTMLElement | null>(null);
@@ -40,8 +41,8 @@ export const HeroSection = () => {
       className="relative flex min-h-screen items-center border-b border-black/10 px-6 pt-28 pb-20 lg:px-10"
     >
       <Image
-        src="/images/hero.jpg"
-        alt="Dự án hạ tầng giao thông"
+        src="/images/du_an/tieu-bieu.jpg"
+        alt={LANDING_TEXT.hero.imageAlt}
         fill
         priority
         className="object-cover"
@@ -49,31 +50,24 @@ export const HeroSection = () => {
       <div className="absolute inset-0 bg-black/80" />
 
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center text-center">
-        <p className="hero-anim relative z-10 mb-4 text-sm font-semibold tracking-tighter uppercase text-white/80">
-          Premium Construction
-        </p>
 
         <h1
-          className={`${cormorantGaramond.className} hero-anim relative z-10 max-w-10xl text-6xl leading-none font-bold tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-9xl`}
+          className={`${cormorantGaramond.className} hero-anim relative z-10 max-w-9xl text-4xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl`}
         >
-          CÔNG TY TNHH ĐÔNG TÂY
+          <span className="block">{LANDING_TEXT.hero.titleLine1}</span>
+          <span className="mt-1 block">{LANDING_TEXT.hero.titleLine2}</span>
         </h1>
 
-        <p className="hero-anim relative z-10 mt-8 max-w-3xl text-lg leading-relaxed font-medium tracking-tighter text-white/90 sm:text-xl">
-          Kiến tạo công trình vững bền
+        <p className="hero-anim relative z-10 mt-3 max-w-3xl text-base leading-relaxed font-medium tracking-tight text-white/80 sm:text-lg">
+          {LANDING_TEXT.hero.description}
         </p>
 
-        <p className="hero-anim relative z-10 mt-3 max-w-3xl text-base leading-relaxed font-medium tracking-tighter text-white/80 sm:text-lg">
-          Chất lượng thi công chuẩn mực, tiến độ minh bạch và giải pháp xây dựng
-          bền vững cho mọi quy mô dự án.
-        </p>
-
-        <Button
+        {/* <Button
           asChild
-          className="hero-anim relative z-10 mt-12 h-12 rounded-none bg-white px-8 text-sm font-semibold tracking-tighter text-black uppercase transition-colors hover:bg-[#f59e0b]"
+          className="hero-anim relative z-10 mt-6 h-12 rounded-none bg-white px-8 text-sm font-semibold tracking-tighter text-black uppercase transition-colors hover:bg-[#f59e0b]"
         >
-          <a href="#lien-he">Nhận tư vấn dự án</a>
-        </Button>
+          <a href="#lien-he">{LANDING_TEXT.hero.cta}</a>
+        </Button> */}
       </div>
     </section>
   );
