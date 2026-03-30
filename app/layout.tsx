@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { cormorantGaramond, sfUIDisplay } from "./fonts";
+import { LANDING_TEXT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "CÔNG TY TNHH ĐÔNG TÂY",
-  description: "Kiến tạo công trình vững bền cùng giải pháp xây dựng cao cấp.",
+  title: LANDING_TEXT.metadata.title,
+  description: LANDING_TEXT.metadata.description,
 };
 
 export default function RootLayout({
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`${sfUIDisplay.className} ${sfUIDisplay.variable} ${cormorantGaramond.variable} antialiased`}
       >
         {children}

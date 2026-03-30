@@ -1,11 +1,11 @@
 import {
   AboutSection,
   CTASection,
+  FieldSurveySection,
   FooterSection,
   Header,
   HeroSection,
   PartnersSection,
-  ProjectsSection,
 } from "@/components/landing";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <HeroSection />
       <AboutSection />
-      <ProjectsSection />
+      <FieldSurveySection />
       <PartnersSection />
       <CTASection />
       <FooterSection />
