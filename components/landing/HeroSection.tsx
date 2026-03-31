@@ -3,8 +3,6 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
-import { Button } from "@/components/ui/button";
-import { cormorantGaramond } from "@/app/fonts";
 import { LANDING_TEXT } from "@/lib/constants";
 
 export const HeroSection = () => {
@@ -52,7 +50,7 @@ export const HeroSection = () => {
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center text-center">
 
         <h1
-          className={`${cormorantGaramond.className} hero-anim relative z-10 max-w-9xl text-4xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl`}
+          className="hero-anim relative z-10 max-w-9xl font-serif text-4xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl"
         >
           <span className="block">{LANDING_TEXT.hero.titleLine1}</span>
           <span className="mt-1 block">{LANDING_TEXT.hero.titleLine2}</span>

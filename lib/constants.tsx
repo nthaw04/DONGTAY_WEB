@@ -211,11 +211,10 @@ export const LANDING_TEXT = {
       "Đơn vị thi công và phát triển công trình theo định hướng chất lượng, bền vững và hiệu quả vận hành dài hạn.",
     menuTitle: "Menu",
     contactTitle: "Liên hệ",
-    contacts: ["Hotline: 0901 234 567", "Email: contact@dongtay.vn", "Hải Châu, Đà Nẵng"],
+    contacts: ["Hotline: 0913 682 617", "Email: dongtayco@gmail.com", "123/3 Đỗ Xuân Hợp, P.Phước Long B, Tp Thủ Đức, Tp Hồ Chí Minh"],
     workingHoursTitle: "Giờ làm việc",
     workingHours: [
-      "Thứ 2 - Thứ 6: 08:00 - 17:30",
-      "Thứ 7: 08:00 - 12:00",
+      "Thứ 2 - Thứ 7: 08:00 - 11:30, 13:00 - 17:00",
       "Chủ nhật: Nghỉ",
     ],
     copyright:

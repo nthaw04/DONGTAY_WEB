@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { cormorantGaramond, sfUIDisplay } from "./fonts";
+import { notoSerifJp, sfUIDisplay } from "./fonts";
 import { LANDING_TEXT } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${sfUIDisplay.className} ${sfUIDisplay.variable} ${cormorantGaramond.variable} antialiased`}
+        className={`${sfUIDisplay.className} ${sfUIDisplay.variable} ${notoSerifJp.variable} antialiased`}
       >
         {children}
       </body>

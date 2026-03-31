@@ -8,7 +8,7 @@ export const ProjectsSection = () => {
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
           {LANDING_TEXT.projects.eyebrow}
         </p>
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl leading-tight font-black tracking-tight text-black ">
+        <h2 className="font-serif text-3xl leading-tight font-black tracking-tight text-black sm:text-4xl lg:text-5xl">
           {LANDING_TEXT.projects.title}
         </h2>
 

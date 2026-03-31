@@ -9,7 +9,7 @@ export const CTASection = () => {
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
             {LANDING_TEXT.cta.eyebrow}
           </p>
-          <h2 className="text-4xl leading-tight font-black tracking-tight sm:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl leading-tight font-black tracking-tight sm:text-5xl lg:text-6xl">
             {LANDING_TEXT.cta.title}
           </h2>
         </div>

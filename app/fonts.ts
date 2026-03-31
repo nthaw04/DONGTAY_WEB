@@ -1,9 +1,13 @@
+import { Noto_Serif_JP } from "next/font/google";
 import localFont from "next/font/local";
 
-export const cormorantGaramond = {
-  className: "font-serif",
-  variable: "",
-};
+export const notoSerifJp = Noto_Serif_JP({
+  weight: ["400", "700", "900"],
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-noto-serif-jp",
+  display: "swap",
+  fallback: ["Georgia", "Times New Roman", "serif"],
+});
 
 export const sfUIDisplay = localFont({
   src: [

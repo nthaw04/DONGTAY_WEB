@@ -1,6 +1,5 @@
 import {
   AboutSection,
-  CTASection,
   FieldSurveySection,
   FooterSection,
   Header,
@@ -16,7 +15,6 @@ const Home = () => {
       <AboutSection />
       <FieldSurveySection />
       <PartnersSection />
-      <CTASection />
       <FooterSection />
     </main>
   );
