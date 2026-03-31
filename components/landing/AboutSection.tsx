@@ -115,7 +115,7 @@ export const AboutSection = () => {
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
             {LANDING_TEXT.about.eyebrow}
           </p>
-          <h2 className="text-4xl leading-tight font-black tracking-tight text-black sm:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl leading-tight font-black tracking-tight text-black sm:text-5xl lg:text-6xl">
             {LANDING_TEXT.about.title}
           </h2>
           {LANDING_TEXT.about.descriptionParagraphs.map((paragraph) => (
@@ -133,7 +133,7 @@ export const AboutSection = () => {
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#f59e0b]">
               {LANDING_TEXT.projects.eyebrow}
             </p>
-            <h3 className="mt-2 text-3xl leading-tight font-black tracking-tight text-black">
+            <h3 className="mt-2 font-serif text-3xl leading-tight font-black tracking-tight text-black">
               {LANDING_TEXT.projects.title}
             </h3>
 

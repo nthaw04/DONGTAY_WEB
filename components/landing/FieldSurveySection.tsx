@@ -49,7 +49,7 @@ export const FieldSurveySection = () => {
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
           {LANDING_TEXT.fieldSurvey.eyebrow}
         </p>
-        <h2 className="text-4xl leading-tight font-black tracking-tight text-black sm:text-5xl lg:text-6xl">
+        <h2 className="font-serif text-4xl leading-tight font-black tracking-tight text-black sm:text-5xl lg:text-6xl">
           {LANDING_TEXT.fieldSurvey.title}
         </h2>
 

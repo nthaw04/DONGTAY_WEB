@@ -1,9 +1,13 @@
+import { Google_Sans_Flex } from "next/font/google";
 import localFont from "next/font/local";
 
-export const cormorantGaramond = {
-  className: "font-serif",
-  variable: "",
-};
+export const googleSansFlex = Google_Sans_Flex({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-google-sans-flex",
+  display: "swap",
+  fallback: ["Arial", "Helvetica", "sans-serif"],
+});
 
 export const sfUIDisplay = localFont({
   src: [

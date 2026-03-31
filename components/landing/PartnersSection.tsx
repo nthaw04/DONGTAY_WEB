@@ -14,7 +14,7 @@ export const PartnersSection = () => {
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
           {LANDING_TEXT.partners.eyebrow}
         </p>
-        <h2 className="text-3xl leading-tight font-black tracking-tight text-black sm:text-4xl lg:text-5xl">
+        <h2 className="font-serif text-3xl leading-tight font-black tracking-tight text-black sm:text-4xl lg:text-5xl">
           {LANDING_TEXT.partners.title}
         </h2>
 

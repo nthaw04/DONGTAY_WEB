@@ -3,8 +3,6 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
-import { Button } from "@/components/ui/button";
-import { cormorantGaramond } from "@/app/fonts";
 import { LANDING_TEXT } from "@/lib/constants";
 
 export const HeroSection = () => {
@@ -38,7 +36,7 @@ export const HeroSection = () => {
     <section
       ref={sectionRef}
       id="top"
-      className="relative flex min-h-screen items-center border-b border-black/10 px-6 pt-28 pb-20 lg:px-10"
+      className="relative flex min-h-screen items-center justify-center overflow-x-hidden border-b border-black/10 px-6 py-20 lg:px-10"
     >
       <Image
         src="/images/du_an/tieu-bieu.jpg"
@@ -49,13 +47,13 @@ export const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-black/80" />
 
-      <div className="mx-auto flex w-full max-w-7xl flex-col items-center text-center">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center text-center">
 
         <h1
-          className={`${cormorantGaramond.className} hero-anim relative z-10 max-w-9xl text-4xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl`}
+          className="hero-anim relative z-10 mx-auto max-w-full px-2 text-center font-serif text-[clamp(1.8rem,4.4vw,4.5rem)] leading-tight font-bold tracking-tight text-white"
         >
-          <span className="block">{LANDING_TEXT.hero.titleLine1}</span>
-          <span className="mt-1 block">{LANDING_TEXT.hero.titleLine2}</span>
+          <span className="block whitespace-nowrap">{LANDING_TEXT.hero.titleLine1}</span>
+          <span className="mt-1 block whitespace-nowrap">{LANDING_TEXT.hero.titleLine2}</span>
         </h1>
 
         <p className="hero-anim relative z-10 mt-3 max-w-3xl text-base leading-relaxed font-medium tracking-tight text-white/80 sm:text-lg">
