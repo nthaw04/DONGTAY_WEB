@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { notoSerifJp, sfUIDisplay } from "./fonts";
+import { googleSansFlex, sfUIDisplay } from "./fonts";
 import { LANDING_TEXT } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${sfUIDisplay.variable} ${googleSansFlex.variable}`}>
       <body
         suppressHydrationWarning
-        className={`${sfUIDisplay.className} ${sfUIDisplay.variable} ${notoSerifJp.variable} antialiased`}
+        className={`${sfUIDisplay.className} antialiased`}
       >
         {children}
       </body>

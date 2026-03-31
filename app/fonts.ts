@@ -1,12 +1,12 @@
-import { Noto_Serif_JP } from "next/font/google";
+import { Google_Sans_Flex } from "next/font/google";
 import localFont from "next/font/local";
 
-export const notoSerifJp = Noto_Serif_JP({
-  weight: ["400", "700", "900"],
-  subsets: ["latin", "vietnamese"],
-  variable: "--font-noto-serif-jp",
+export const googleSansFlex = Google_Sans_Flex({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-google-sans-flex",
   display: "swap",
-  fallback: ["Georgia", "Times New Roman", "serif"],
+  fallback: ["Arial", "Helvetica", "sans-serif"],
 });
 
 export const sfUIDisplay = localFont({
