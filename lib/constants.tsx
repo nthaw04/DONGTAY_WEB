@@ -69,13 +69,15 @@ export const SOSs: SOSItem[] = [
 export const LANDING_TEXT = {
   metadata: {
     title: "CÔNG TY TNHH KHẢO SÁT NỀN MÓNG & KIỂM ĐỊNH XÂY DỰNG ĐÔNG TÂY",
-    description: "Kiến tạo công trình vững bền cùng giải pháp xây dựng cao cấp.",
+    description:
+      "Kiến tạo công trình vững bền cùng giải pháp xây dựng cao cấp.",
   },
   logo: "Đông Tây",
   navItems: [
     { href: "#gioi-thieu", label: "Giới thiệu" },
     { href: "#du-an", label: "Dự án" },
     { href: "#doi-tac", label: "Sơ đồ tổ chức" },
+    { href: "/cong-bo-nlhd-thi-nghiem", label: "CÔNG BỐ NLHĐ THÍ NGHIỆM" },
     { href: "#lien-he", label: "Liên hệ" },
   ],
   hero: {
@@ -84,8 +86,7 @@ export const LANDING_TEXT = {
     titleLine1: "CÔNG TY TNHH KHẢO SÁT NỀN MÓNG",
     titleLine2: "& KIỂM ĐỊNH XÂY DỰNG ĐÔNG TÂY",
     subtitle: "Kiến tạo công trình vững bền",
-    description:
-      "Chất lượng chuẩn mực, tiến độ minh bạch cho mọi dự án.",
+    description: "Chất lượng chuẩn mực, tiến độ minh bạch cho mọi dự án.",
     cta: "Nhận tư vấn dự án",
   },
   about: {
@@ -96,7 +97,7 @@ export const LANDING_TEXT = {
       "Phòng thí nghiệm địa kỹ thuật đã được cấp giấy chứng nhận đủ điều kiện hoạt động thí nghiệm chuyên ngành xây dựng của Sở Xây dựng Tp HCM: Phòng thí nghiệm Địa kỹ thuật được Sở Xây Dựng cấp mã số dấu LAS - XD 58.031 theo quyết định số: 95/GCN-SXD-KT&VLXD ngày 01/11/2024). Bên cạnh đó Phòng thí nghiệm chuyên ngành xây dựng của Công ty đã xây dựng, áp dụng và được chứng nhận hệ thống quản lý phòng thí nghiệm theo các yêu cầu của tiêu chuẩn TCVN ISO/IEC 17025 : 2024.",
       "Công ty rất sẵn sàng hợp tác phát triển trong nước, ngoài nước và quốc tế với các đối tác phù hợp, đồng thời sẵn sàng chia sẻ kinh nghiệm nghề nghiệp nhằm cùng nhau phát triển trên tiêu chí: “Phát triển bền vững – Nâng cao và đảm bảo chất lượng công trình”.",
       "Trung tâm xin gửi lời cảm ơn chân thành đến các quý Chủ đầu tư, quý Ban quản lý, Đơn vị tư vấn giám sát, Nhà thầu thi công xây lắp và các đơn vị đối tác đã quan tâm, tạo điều kiện và hợp tác cùng Trung tâm. Trung tâm luôn mong muốn nhận được sự quan tâm, hợp tác và góp ý của Quý khách hàng trong thời gian tới.",
-      "Trân trọng cảm ơn và kính chào!"
+      "Trân trọng cảm ơn và kính chào!",
     ],
   },
   fieldSurvey: {
@@ -205,13 +206,16 @@ export const LANDING_TEXT = {
     button: "Liên hệ tư vấn ngay",
   },
   footer: {
-    companyName:
-      "CÔNG TY TNHH KHẢO SÁT NỀN MÓNG & KIỂM ĐỊNH XÂY DỰNG ĐÔNG TÂY",
+    companyName: "CÔNG TY TNHH KHẢO SÁT NỀN MÓNG & KIỂM ĐỊNH XÂY DỰNG ĐÔNG TÂY",
     companyDescription:
       "Đơn vị thi công và phát triển công trình theo định hướng chất lượng, bền vững và hiệu quả vận hành dài hạn.",
     menuTitle: "Menu",
     contactTitle: "Liên hệ",
-    contacts: ["Hotline: 0913 682 617", "Email: dongtayco@gmail.com", "123/3 Đỗ Xuân Hợp, P.Phước Long B, Tp Thủ Đức, Tp Hồ Chí Minh"],
+    contacts: [
+      "Hotline: 0913 682 617",
+      "Email: dongtayco@gmail.com",
+      "123/3 Đỗ Xuân Hợp, P.Phước Long B, Tp Thủ Đức, Tp Hồ Chí Minh",
+    ],
     workingHoursTitle: "Giờ làm việc",
     workingHours: [
       "Thứ 2 - Thứ 7: 08:00 - 11:30, 13:00 - 17:00",
