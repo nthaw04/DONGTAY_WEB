@@ -68,8 +68,7 @@ const CongBoNLHDThiNghiemPage = () => {
             </div>
 
             <div className="flex items-center gap-2 rounded-full bg-[#edf6ff] px-3 py-1.5 text-xs font-semibold text-[#136fc0]">
-              <FlaskConical className="h-3.5 w-3.5" />
-              11 tài liệu
+              <FlaskConical className="h-3.5 w-3.5" />9 tài liệu
             </div>
           </div>
 
