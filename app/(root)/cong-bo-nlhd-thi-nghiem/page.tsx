@@ -13,21 +13,37 @@ const capabilityItems = [
     href: "https://drive.google.com/file/d/1B28iALKAMF6YGikQP5ndSc7Uw7NBoQbv/view?usp=drive_link",
   },
   {
-    label: "PHÁP LÝ TRUNG TÂM",
-    href: "",
+    label: "ĐĂNG KÍ KINH DOANH. MÃ NGÀNH. LAS",
+    href: "https://drive.google.com/file/d/1EDyHavOSGyHISXw8wJ-ZVIhXE33OWrNa/view?usp=drive_link",
   },
-  { label: "QĐ THÀNH LẬP PTN + BỔ NHIỆM TP THÍ NGHIỆM", href: "" },
-  { label: "DANH SÁCH NHÂN SỰ. BẢNG PHÂN CÔNG CÔNG VIỆC. BẰNG CẤP", href: "" },
-  { label: "DANH MỤC CÁC THỦ TỤC, QUY TRÌNH QUẢN LÝ CHẤT LƯỢNG", href: "" },
   {
-    label: "HỆ THỐNG QLCL THEO TCVN ISO 17025: 2017",
-    href: "https://drive.google.com/file/d/1rkpcfpfUwNRhMv0E8NaBaaD55yDOQiNF/view?usp=drive_link",
+    label: "QUYẾT ĐỊNH THÀNH LẬP PHÒNG THÍ NGHIỆM",
+    href: "https://drive.google.com/file/d/1X6fc5EyxBTt8kvi8k8uQ3QGY3Cm_Ff67/view?usp=drive_link",
   },
-  { label: "DANH MỤC MÁY MÓC THIẾT BỊ. HỢP ĐỒNG MUA BÁN.", href: "" },
-  { label: "BẢN SAO CHỨNG NHẬN KIỂM ĐỊNH/HIỆU CHUẨN THIẾT BỊ", href: "" },
-  { label: "HỢP ĐỒNG THUÊ PTN. MẶT BẰNG PTN", href: "" },
-  { label: "DANH MỤC TÀI LIỆU TCVN", href: "" },
-  { label: "DANH MỤC TÀI LIỆU TCNN", href: "" },
+  {
+    label: "DANH SÁCH NHÂN SỰ, BẰNG CẤP, HỢP ĐỒNG",
+    href: "https://drive.google.com/file/d/1usgTTENYKrnPQOjoh4TVt64EI4KdwJTf/view?usp=drive_link",
+  },
+  {
+    label: "BẢNG PHÂN CÔNG CÔNG VIỆC",
+    href: "https://drive.google.com/file/d/1SwRUs8DlWCpaiRm1DcQ5NeVK4aeTwPtL/view?usp=drive_link",
+  },
+  {
+    label: "HĐKT. BBBG. HÓA ĐƠN TB",
+    href: "https://drive.google.com/file/d/1goiXlEzl_fJBlu7YuDeeK3cZh7upZ-1l/view?usp=drive_link",
+  },
+  {
+    label: "DANH MỤC TÀI LIỆU QLCL THEO TCVN ISO 17025: 2017",
+    href: "https://drive.google.com/file/d/1LSCh_FkyMOJn0F2qT7-5uI_4M5nVNRco/view?usp=sharing",
+  },
+  {
+    label: "HIỆU CHUẨN 2025 - 2026",
+    href: "https://drive.google.com/file/d/1tJfW1r_NtJ05RAssx1JMOOGir3yOcf7E/view?usp=sharing",
+  },
+  {
+    label: "HỢP ĐỒNG THUÊ NHÀ, MẶT BẰNG",
+    href: "https://drive.google.com/file/d/1LSCh_FkyMOJn0F2qT7-5uI_4M5nVNRco/view?usp=sharing",
+  },
 ] as const;
 
 const CongBoNLHDThiNghiemPage = () => {
