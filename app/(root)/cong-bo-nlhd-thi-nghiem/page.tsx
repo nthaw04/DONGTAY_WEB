@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const capabilityItems = [
   {
     label: "ĐƠN CÔNG BỐ NĂNG LỰC HOẠT ĐỘNG THÍ NGHIỆM",
-    href: "https://drive.google.com/file/d/1B28iALKAMF6YGikQP5ndSc7Uw7NBoQbv/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1l0GCpA0WbWKnQlr9wzgr2HESYLPtcxBK/view?usp=drive_link",
   },
   {
     label: "ĐĂNG KÍ KINH DOANH. MÃ NGÀNH. LAS",
@@ -33,12 +33,12 @@ const capabilityItems = [
     href: "https://drive.google.com/file/d/1goiXlEzl_fJBlu7YuDeeK3cZh7upZ-1l/view?usp=drive_link",
   },
   {
-    label: "DANH MỤC TÀI LIỆU QLCL THEO TCVN ISO 17025: 2017",
-    href: "https://drive.google.com/file/d/1LSCh_FkyMOJn0F2qT7-5uI_4M5nVNRco/view?usp=sharing",
-  },
-  {
     label: "HIỆU CHUẨN 2025 - 2026",
     href: "https://drive.google.com/file/d/1tJfW1r_NtJ05RAssx1JMOOGir3yOcf7E/view?usp=sharing",
+  },
+  {
+    label: "DANH MỤC TÀI LIỆU QLCL THEO TCVN ISO 17025: 2017",
+    href: "https://drive.google.com/file/d/1LSCh_FkyMOJn0F2qT7-5uI_4M5nVNRco/view?usp=sharing",
   },
   {
     label: "HỢP ĐỒNG THUÊ NHÀ, MẶT BẰNG",
