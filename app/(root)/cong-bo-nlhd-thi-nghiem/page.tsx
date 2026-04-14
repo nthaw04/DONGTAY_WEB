@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const capabilityItems = [
   {
     label: "ĐƠN CÔNG BỐ NĂNG LỰC HOẠT ĐỘNG THÍ NGHIỆM",
-    href: "https://drive.google.com/file/d/1l0GCpA0WbWKnQlr9wzgr2HESYLPtcxBK/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1o_1DiIpKc0u7pJ6hQ4tWDypQTxniMUaG/view?usp=drive_link",
   },
   {
     label: "ĐĂNG KÍ KINH DOANH. MÃ NGÀNH. LAS",
